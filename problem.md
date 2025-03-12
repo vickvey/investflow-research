@@ -1,23 +1,23 @@
-# LoanOptimizer: A Product-Based Web Application for Loan Portfolio Optimization
+LoanOptimizer: A Product-Based Web Application for Loan Portfolio Optimization
 
-## Project Overview
+Project Overview
 
-## Title: Loan Portfolio Optimization for Risk and Return
+Title: Loan Portfolio Optimization for Risk and Return
 - Product Name: LoanOptimizer
 
-## Objective: Develop a product-based web application that enables financial institutions (e.g., banks, credit unions, peer-to-peer lending platforms) and individual users (e.g., investors, financial advisors) to optimize loan portfolio allocations, maximize expected returns, manage risk, and gain predictive and inferential insights for decision-making.
+Objective: Develop a product-based web application that enables financial institutions (e.g., banks, credit unions, peer-to-peer lending platforms) and individual users (e.g., investors, financial advisors) to optimize loan portfolio allocations, maximize expected returns, manage risk, and gain predictive and inferential insights for decision-making.
 
 - Target Users: Firms (e.g., banks, lending platforms) and individuals (e.g., investors, loan officers) seeking to allocate capital across loan types efficiently.
 - Timeline: 20 days (assumed based on prior context, adjustable as needed).
 Team Size: 5 members.
 - Final Deliverable: A fully functional, deployed web application accessible via a public URL, with user authentication, input flexibility, optimization, analytics, visualizations, and export features.
 
-## Detailed Problem Statement
+Detailed Problem Statement
 
-### Context
+Context
 You are a team of fintech developers tasked with creating "LoanOptimizer," a versatile, product-based web application designed to serve a diverse user base, including financial institutions and individual users. The web app will enable users to optimize the allocation of a capital budget across a portfolio of loan types (e.g., personal loans, auto loans, mortgages, etc.) to maximize expected returns (interest income) while keeping the risk of loan defaults (measured as variance or Conditional Value-at-Risk, CVaR) within user-specified thresholds. Beyond optimization, the app will provide predictive analytics (e.g., forecasts, scenario analyses) and inferential analytics (e.g., sensitivity analyses, statistical insights) to help users anticipate future performance, assess the robustness of the solution, and make informed decisions. The final product must be a scalable, secure, and user-friendly web service deployed on a cloud platform (e.g., Heroku), featuring an intuitive interface for inputting data, running optimizations, visualizing results, and exporting reports.
 
-### Specific Parameters
+Specific Parameters
 
 1. Loan Types:
    - Users can define a portfolio of N loan types (minimum 2, maximum 20), such as personal loans, auto loans, mortgages, small business loans, credit card loans, student loans, etc.
