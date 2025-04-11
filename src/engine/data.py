@@ -16,7 +16,7 @@ def fetch_real_data(tickers, start_date="2021-05-12", end_date="2022-05-12"):
     - pandas DataFrame with dates as index and tickers as columns.
     """
     try:
-        data = yf.download(tickers, start=start_date, end=end_date, progress=False)['Adj Close']
+        data = yf.download(tickers, start=start_date, end=end_date, progress=False)
         return data.dropna()
     except Exception as e:
         raise ValueError(f"Failed to fetch data: {e}")
