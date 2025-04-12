@@ -1,7 +1,7 @@
 # engine/utils.py
 import pandas as pd
 
-def compute_mu_S_from_prices(prices):
+def compute_mu_S_from_prices(returns):
     """
     Compute expected returns and covariance matrix from price data.
     
@@ -11,7 +11,9 @@ def compute_mu_S_from_prices(prices):
     Returns:
     - tuple: (mu, S), where mu is a pandas Series and S is a pandas DataFrame.
     """
-    returns = prices.pct_change().dropna()
+    # returns = prices.pct_change().dropna()
+
     mu = returns.mean()
     S = returns.cov()
     return mu, S
+
